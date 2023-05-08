@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="13dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="أهلا بك في كتاب العربية الصف الثالث الفصل الثاني , اختر الدرس الذي تريد تعلمه"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/lesson1_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/https_www_wepal_net_library_upload_03_2021_content_603e83f9c0ac4_pdf"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/lesson1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="حيفا والنورس"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lesson1_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="@string/_5_n_https_www_youtube_com_watch_v_o2vfwu9eutyt_104s_n_n"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/lesson2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="يوم الشجرة"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lesson2_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="@string/_17_n_https_www_youtube_com_watch_v_sm39vtiw0xu_n_n_https_www_sh_pal_com_2021_06_blog_post_39_html"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/lesson3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="الراعي والذئب"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lesson3_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/_27_n_https_www_youtube_com_watch_v_exoc_tnz464_n_n"
+            android:textAlignment="center"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/lesson4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="احب ان اكون"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lesson4_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/_37_n_https_www_youtube_com_watch_v_vkzka6ie3wo_n_n_https_www_wepal_net_library_app_content_show_10829"
+            android:textAlignment="center"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/lesson5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="من اخلاقنا"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lesson5_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="@string/_47_n_https_www_youtube_com_watch_v_u0p_qo2twfe_n_n_https_www_wepal_net_library_app_content_show_10830"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/lesson6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="في ميناء غزة"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/lesson6_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/_57_n_https_www_youtube_com_watch_v_od0zvxemons_n_n_https_ckf_fatakat_n_club_p_d8_b4_d8_b1_d8_ad_d8_af_d8_b1_d8_b3_d9_81_d9_8a_d9_85_d9_8a_d9_86_d8_a7_d8_a1_d8_ba_d8_b2_d8_a9"
+            android:textAlignment="center"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/lesson7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="الغراب والثعلب"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lesson7_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/_67_n_https_www_youtube_com_watch_v_ol26isqw_8o_n_n_https_www_wepal_net_library_app_content_show_10863"
+            android:textAlignment="center"
+
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/lesson8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="المبدعة الصغيره"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lesson8_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/_77_n_https_www_youtube_com_watch_v_3la3xw1bn3w_n_n_https_www_wepal_net_library_app_content_show_10864"
+            android:textAlignment="center"
+
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/lesson9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="ذكاء القاضي اياس"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lesson9_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/_87_n_https_www_youtube_com_watch_v_njbgq86viq0_n_n_https_www_wepal_net_library_app_content_show_10865"
+            android:textAlignment="center"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/lesson10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="في حديقه الحيوان"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lesson10_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/_97_n_https_www_youtube_com_watch_v_53jw_qd_kj0_n_n_https_www_wepal_net_library_app_content_show_10866"
+            android:textAlignment="center"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/lesson11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:text="تهانينا ! لقد انتهيت" />
+
+
+    </LinearLayout>
+
+</ScrollView>
